@@ -1,0 +1,25 @@
+{
+  "name": "@gs-utils/package-updater",
+  "version": "0.0.0",
+  "description": "Updates outdated packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gopikrishna19/package-updater.git"
+  },
+  "keywords": [
+    "interactive",
+    "node",
+    "package",
+    "updater"
+  ],
+  "author": "Gopikrishna Sathyamurthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gopikrishna19/package-updater/issues"
+  },
+  "homepage": "https://github.com/Gopikrishna19/package-updater#readme"
+}
