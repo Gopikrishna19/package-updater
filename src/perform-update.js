@@ -2,6 +2,10 @@ const {getNpm} = require('./npm');
 const {spawn} = require('child_process');
 
 module.exports.performUpdates = (updates) => {
+    if(!updates) {
+        return;
+    }
+
     const installs = updates.map(({name, version}) => `${name}@${version}`).join(' ');
 
     const child = spawn(getNpm(), ['install'].concat(installs), {
