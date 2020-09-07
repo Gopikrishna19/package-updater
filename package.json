@@ -1,6 +1,6 @@
 {
   "name": "@gs-utils/package-updater",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Updates outdated packages",
   "main": "src/index.js",
   "scripts": {
