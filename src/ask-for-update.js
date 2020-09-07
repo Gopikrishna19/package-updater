@@ -61,6 +61,7 @@ module.exports.askForUpdate = () => {
     const packages = Object.entries(status);
 
     if (!packages.length) {
+        rl.close();
         console.log('Nothing to update.');
         return;
     }
