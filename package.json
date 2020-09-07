@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node index.js"
   },
+  "bin": {
+    "package-updater": "bin/package-updater.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gopikrishna19/package-updater.git"
